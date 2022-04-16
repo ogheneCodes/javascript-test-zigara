@@ -19,53 +19,77 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-
+    <script src="https://kit.fontawesome.com/1cace6c889.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <nav id="navbar">
-      <!-- LOGO -->
-      <div id="logo">
-        <a href="#"><img src="images/ZIGARA LOGO png-01.png" style="width: 300px" /></a>
+   <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">
+      <img src="images/ZIGARA LOGO png-01.png" alt="Avatar" style="width: 200px;"/>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+              Our Services 
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              About Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Account
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Support
+            </a>
+          </li>
+
+
+          <li class="nav-item">
+          <button type="button" class="btn btn-danger">Login</button>
+          </li>
+          <li class="nav-item">
+          <button type="button" class="btn btn-light">Sign Up</button>
+          </li>
+        </ul>
       </div>
-      <!-- NAVIGATION MENU -->
-      <ul id="nav-links">
-        <!-- USING CHECKBOX HACK -->
-        <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle" id="hamburger">&#9776;</label>
-        <!-- NAVIGATION MENUS -->
-        <div id="menu">
-          <li id="services">
-            <a href="/">Our Services</a>
-            <!-- DROPDOWN MENU -->
-            <ul id="dropdown">
-              <li><a href="/">Dropdown 1 </a></li>
-              <li><a href="/">Dropdown 2</a></li>
-              <li><a href="/">Dropdown 2</a></li>
-              <li><a href="/">Dropdown 3</a></li>
-              <li><a href="/">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">About</a></li>
-          <li id="services">
-            <a href="/">Support</a>
-            <!-- DROPDOWN MENU -->
-            <ul id="dropdown">
-              <li><a href="/">Dropdown 1 </a></li>
-              <li><a href="/">Dropdown 2</a></li>
-              <li><a href="/">Dropdown 2</a></li>
-              <li><a href="/">Dropdown 3</a></li>
-              <li><a href="/">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="/">Pricing</a></li>
-          <li><a href="/">Contact</a></li>
-        </div>
-      </ul>
     </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!--Quick and Reliable-->
     <div id="quick-and-reliable">
@@ -208,19 +232,27 @@
           <div id="social-media-div">
             <h2>Socials</h2><br><br><br>
             <br>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-linkedin"></i>
+            <!-- <i class="bi bi-facebook"></i> -->
+            <img src="images/facebook_icon.png"/>
+            <!-- <i class="fa-brands fa-facebook-f"></i> -->
+            <img src="images/twitter_icon.png"/>
+            <!-- <i class="bi bi-twitter"></i> -->
+            <img src="images/instagram_icon.png"/>
+            <!-- <i class="bi bi-instagram"></i> -->
+            <!-- <i class="bi bi-linkedin"></i> -->
+            <img src="images/linkedin-icon.png"/>
           </div>
           
           <div id="copyright-div">
             <p>2022. All Rights Reserved. Zigara logistics.</p>
           </div>
         </div>
+        <br><br><br>
         <div id="footer-div-space"></div>
     </div>
 
+
+   </div>
 
 
 
