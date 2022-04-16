@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For and switch</title>
+    <style>
+      .main {
+        margin: auto;
+        border: 3px solid green;
+        
+        height: max-content;
+      }
+      h1 {
+        color: black;
+        /* color: whitesmoke; */
+        text-align: center;
+        margin-top: auto;
+      }
+      .old {
+        background-color: antiquewhite;
+        width: 50%;
+        /* float: center; */
+      }
+      button {
+        border-color: black;
+        border-radius: 5px;
+        color: brown;
+        background-color: aqua;
+        margin-left: 20px;
+        margin-bottom: 5px;
+      }
+      .new {
+        background-color: rgb(230, 215, 250);
+        width: 50%;
+        /* margin-top: 0px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>JavaScript</h1>
+      <div class="old">
+        <h2>JavaScript switch using old method</h2>
+        <div>
+          <pre>
+    let text1;
+   switch (new Date()
+   .getDay()) {
+    default:
+    text1 = 
+    "Looking forward
+     to the Weekend";
+    break;
+    case 6:
+    text1 = 
+    "Today is Saturday";
+    break;
+    case 0:
+    text1 = 
+    "Today is Sunday";
+    }
+console.log(text1);
+</pre
+          >
+        </div>
+        <p id="demo1"></p>
+        <button>Click</button>
+      </div>
+      <!-- New Switch -->
+      <div class="New">
+        <h2>JavaScript switch using New method</h2>
+        <div>
+          <pre>
+    const extention = `.js`;
+
+    const extentionObj = {
+        '.css': 'text/css',
+        '.js': 'text/javascript',
+        '.json': 'application/json',
+        '.jpg': 'image/jpeg',
+        '.png': 'image/png',
+        '.txt': 'text/plain'
+    }
+    console.log(`${extentionObj
+        [extention]}`);
+</pre
+          >
+        </div>
+        <p id="demo2"></p>
+        <button>Click</button>
+      </div>
+    </div>
+
+    <script src="switch.js"></script>
+  </body>
+</html>

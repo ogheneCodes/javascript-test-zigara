@@ -1,0 +1,92 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ES6,7,8</title>
+  </head>
+  <body>
+    <center><h1>ES6, 7 and 8</h1></center>
+    <main>
+      <div class="object">
+        <h1>
+          <span style="color: blue">Object </span>Destructuring in Javascript
+        </h1>
+         <pre>
+const person = {
+    firstName: "Elon",
+    lastName: "Zuckerberg",
+    age: 60,
+    color: "Yellow",
+     gender: "Female",
+     };
+              
+     const { firstName, lastName, age, color, gender } 
+    = person;
+     console.log(
+    `${firstName} ${lastName} 
+    is not ${age}years but he has a skin color of 
+     ${color} and he is a ${gender}`
+);
+<div id="displayObj1"></div>
+<button type="submit" id="displayButtonObj1">ClickToDisplayValue</button>
+         </pre>
+         
+         <pre>
+<h3 style="color: blue;">Object Destructuring with a function</h3>
+const person2 = {
+  firstName2: "Oghene",
+  lastName2: "Max",
+  age2: 30,
+  color2: "Dark",
+  gender2: "Male",
+  action(){
+      return `${this.firstName2} ${this.lastName2} 
+      is not ${this.age2}years but he has a skin color of 
+      ${this.color2} and he is a ${this.gender2}`
+  }
+  };
+  console.log(person2.action());
+<div id="displayObj2"></div>
+<button type="submit" id="displayButtonObj2">ClickToDisplayValue</button>    
+         </pre>
+    </div>
+      <!-- <hr style="width: 1px; height: 100px; background: black; border: none;" /> -->
+      
+      <!-- Array Destructuring -->
+      <div class="array">
+        <h1>
+          <span style="color: red">Array</span> Destructuring in Javascript
+        </h1>
+        <pre>
+let number = [100, 200, 300]; 
+let [one, two, three] = number; 
+console.log(one, two, three);
+document.getElementById('displayArray1')
+.innerText = one, two, three;
+         
+<div id="displayArray1"></div>
+<button type="submit" id="displayButtonArray1">ClickToDisplayValue</button> 
+        </pre>
+        <pre>
+<h3 style="color: red;">Array Destructuring with a function</h3>
+function school(){  
+  return ['UNN', 'DELSU'];  
+}
+let [sch1, sch2]  = school();
+console.log(sch1, sch2, sch3 =
+ 'ABU', sch4 = 'AWKA')
+document.getElementById('').innerText = 
+sch1, sch2, sch3 = 'ABU', sch4 = 'AWKA';
+
+<div id="displayArray2"></div>
+<button type="submit" id="displayButtonArray2">ClickToDisplayValue</button> 
+        </pre>
+      </div>
+    </main>
+
+    <script src="1_Destructuring.js"></script>
+    <script src="func.js"></script>
+  </body>
+</html>

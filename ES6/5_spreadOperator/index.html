@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spread operator</title>
+    <style>
+      .main {
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
+        /* height: 500px; */
+      }
+      #array{
+        background-color: oldlace;
+        /* display: none; */
+      }
+      #object{
+        background-color: oldlace;
+        /* display: none; */
+      }
+      #button1{
+        background-color: oldlace;
+        border-radius: 6px;
+        color:red;
+      }
+      #button2{
+        background-color: oldlace;
+        border-radius: 6px;
+        color:red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1 style="text-align: center; margin-top: 0%">
+        <span style="color: blue">Spread</span> Operator
+      </h1>
+      <h3>Spread Operator in Array</h3>
+      <pre>
+        const parent1 = ['John', 'Onyinye'];
+        const children1 = ['Mark', 'Broda', 'Kemi', 'Rose'];
+        const family1 = [...parent1, ...children1];
+        
+        console.log(...family1);
+        <div id="array">133333</div>
+        <button id="button1">click</button>
+            </pre>
+      <h3>Spread Operator in Object</h3>
+      <pre>
+            const parent2 = {
+                father: 'Uzo',
+                mother: 'Janet',
+                child1: 'Kunle',
+                child2: 'Debo'
+            };
+            
+            const family2 = [parent2];
+            console.log(...family2);
+            <div id="object"></div>
+        <button id="button2">click</button>
+        </pre
+      >
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

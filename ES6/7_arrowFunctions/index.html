@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <style>
+        #btn1{
+            background-color: black;
+            color: aliceblue;
+            border-radius: 10px;
+
+        }
+       #btn2{
+        background-color: black;
+        color: aliceblue;
+        border-radius: 10px;
+        }
+        #noArrow{
+            display: none;
+        }
+        #Arrow{
+        display: none;
+        }
+    </style>
+</head>
+<body>
+       <h2 style="text-align: center;">Functions</h2>
+       <div>
+        <h3>No Arrow</h3>
+<pre>
+    const add = function sum(a, b){
+        return a + b;
+    }
+    console.log(add(2, 2))
+    document.getElementById('noArrow').innerHTML = add(2, 2)
+</pre>
+        <div id="noArrow"></div>
+        <button id="btn1">click</button>
+        <hr>
+        <h3>Arrow</h3>
+        <pre>
+            let minus = (a, b ) => {
+                return a - b
+            }
+            
+            console.log(minus(10, 4))
+            document.getElementById('Arrow').innerHTML = add(2, 2)
+        </pre>
+        <div id="Arrow"></div>
+        <button id="btn2">click</button>
+    </div>
+
+    <script src="func.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

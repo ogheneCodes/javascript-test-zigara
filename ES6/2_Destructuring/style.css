@@ -1,0 +1,49 @@
+main{
+    margin: 20px auto;
+
+}
+h1{
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.object{
+    width: 50%;
+    float:left;
+    padding-right: 2px solid black;
+    background-color: aliceblue;
+    height: auto;
+}
+.array{
+    width: 50%;
+    float:right;
+    background-color: bisque;
+    height: auto;
+}
+pre{
+    float: left;
+}
+ #displayObj1{
+    color: grey;
+    display: none;
+    font-size: larger;
+    width: 50px;
+   
+}
+#displayObj2{
+    color: grey;
+    display: none;
+    font-size: larger;
+}
+/* Array Destructuring */
+#displayArray1{
+    color: grey;
+    display: none;
+    font-size: larger;
+    width: 50px;
+   
+}
+#displayArray2{
+    color: grey;
+    display: none;
+    font-size: larger;
+}

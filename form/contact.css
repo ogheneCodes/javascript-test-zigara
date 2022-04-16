@@ -1,0 +1,74 @@
+
+
+#contact-page{
+    margin: 25px auto;
+    background-color: green;
+    width: 80%;
+    height: 500px;
+}
+
+#contact-text{
+   /* color: #FFFFFF; */
+    height: 39px;
+    font-weight: bold;
+    font-size:larger;
+    margin-top: 150px;
+    height: 70px;
+    color:white;
+}
+#support-image{
+    /* background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat; */
+    padding: 15px;
+    background-image: url(images/contact\ us.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    /* resizing bg image */
+    background-size: 100%;
+    opacity: 0.7;
+}
+#phone-img{
+    /* width: 40px; */
+    height: 136.92630004882812px;
+    width: 137.17742919921875px;
+    left: 4.26318359375px;
+    top: 4.562255859375px;
+    border-radius: 0px;
+    color:#000000;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+#col3{
+    border: 2px solid white;
+}
+#col1{
+    border: 2px solid blue;
+}
+#col2{
+    border: 2px solid red;
+    margin-top: 10px;
+    
+    
+
+}
+#col2 h2{
+    color: #2C2A2A;
+    margin-top: 20px;
+
+}
+/* #col2 span{
+    display: flex;
+} */
+input[type=submit]{
+    background-color: #D71F20;
+    color: white;
+    height: 43px;
+    width: 169px;
+    left: 321px;
+    top: 381px;
+    border-radius: 10px;
+    padding: 25px, 90px, 25px, 90px;
+}
+input[type=text]{
+    height: 40px;
+    border-radius: 5px;
+}
